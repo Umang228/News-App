@@ -1,0 +1,39 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 8;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  color: black;
+  background: #fff;
+  height: 72px;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  transition: padding-left 0.5s ease;
+}
+
+.menu-button {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  color: black;
+  font-size: 1rem;
+  transition: transform 0.3s ease;
+  
+}
+
+.menu-icon {
+  margin-right: 8px;
+  font-size: 1.4rem;
+}
+
+.navbar-logo {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 72px;
+  object-fit: contain;
+}
